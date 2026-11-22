@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#05060b" />
+    <meta
+      name="description"
+      content="Get in touch with DizzilyBusy Game Studios. Questions, ideas, or just want to say hello?"
+    />
+    <title>Contact — DizzilyBusy Game Studios</title>
+    <link rel="icon" type="image/png" href="assets/dizzilybusy-emblem.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/config.js" defer></script>
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <div class="scroll-progress"><span></span></div>
+    <header class="site-header">
+      <a class="brand" href="index.html"
+        ><img
+          src="assets/dizzilybusy-emblem.png"
+          alt=""
+          class="brand-mark"
+        /><span class="brand-name"
+          >DIZZILY<span>BUSY</span><small>GAME STUDIOS</small></span
+        ></a
+      >
+      <button
+        class="menu-toggle"
+        aria-label="Open navigation"
+        aria-expanded="false"
+      >
+        <span></span><span></span>
+      </button>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a><a href="about.html">About us</a
+        ><a class="active" href="contact.html">Contact</a
+        ><a class="nav-cta" href="contact.html">Say hello <span>↗</span></a>
+      </nav>
+    </header>
+    <main>
+      <section class="page-hero contact-hero">
+        <div class="page-hero-glow"></div>
+        <div class="section-kicker reveal">
+          OPEN INBOX. MOSTLY OPEN TABS. / 01
+        </div>
+        <h1 class="page-title reveal">
+          LET'S<br /><span class="gradient-text">TALK.</span>
+        </h1>
+        <p class="page-lead reveal">
+          Got a question, an idea, feedback, or a very important meme? The inbox
+          is open.
+        </p>
+      </section>
+      <section class="contact-layout section-wrap">
+        <div class="contact-aside reveal">
+          <div class="section-kicker">01 / SEND A SIGNAL</div>
+          <h2>NO NEED<br />TO BE <span class="gradient-text">SHY.</span></h2>
+          <p>
+            We're always happy to hear from fellow creators, curious humans and
+            people who just want to say hello.
+          </p>
+          <div class="contact-detail">
+            <span class="detail-icon">↗</span>
+            <div>
+              <small>EMAIL</small
+              ><strong data-contact-email>thecoolgamedevacc@gmail.com</strong>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <span class="detail-icon">✳</span>
+            <div>
+              <small>RESPONSE TIME</small
+              ><strong>When we're not debugging</strong>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form reveal" id="contact-form">
+          <label for="name">YOUR NAME</label
+          ><input
+            id="name"
+            name="name"
+            type="text"
+            placeholder="The name your friends use"
+            required
+          />
+          <label for="email">YOUR EMAIL</label
+          ><input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="you@example.com"
+            required
+          />
+          <label for="subject">WHAT'S THIS ABOUT?</label
+          ><input
+            id="subject"
+            name="subject"
+            type="text"
+            placeholder="A cool idea, perhaps?"
+            required
+          />
+          <label for="message">YOUR MESSAGE</label
+          ><textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Let the words flow..."
+            required
+          ></textarea>
+          <button class="button button-primary submit-button" type="submit">
+            Prepare message <span>↗</span>
+          </button>
+          <p class="form-note" id="form-note" aria-live="polite">
+            This opens your email app with your message ready to send. No
+            mysterious form servers involved.
+          </p>
+        </form>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <a class="footer-brand" href="index.html"
+        ><img src="assets/dizzilybusy-emblem.png" alt="" /><span
+          >DIZZILYBUSY <small>GAME STUDIOS</small></span
+        ></a
+      >
+      <p>
+        Made with curiosity, caffeine, and a suspicious amount of debugging.
+      </p>
+      <div class="footer-bottom">
+        <span>© <span data-year></span> DizzilyBusy Game Studios</span
+        ><span>BUILT DIFFERENT. DEBUGGED EVENTUALLY.</span
+        ><a href="#top" class="back-top">BACK TO TOP ↑</a>
+      </div>
+    </footer>
+  </body>
+</html>
